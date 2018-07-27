@@ -12,6 +12,7 @@ Table of contents
 =================
  * [Getting started](#getting-started)
  * [Contributing](#contributing)
+ * [Development](#contributing)
  
  ## Getting started
  ### Step 1: Install `ng-fluent-order-tracker`:
@@ -50,6 +51,14 @@ export class AppModule { }
  Contributions are welcome. You can start by looking at [issues](https://github.com/RbkGh/NgFluentOrderTracker/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) with label *Help wanted*  or creating new Issue with proposal or bug report.
  Note that we are using https://conventionalcommits.org/ commits format.
  
+ ## Development
+ ```npm run packagr```
+ 
+ ```npm pack ``` in dist folder
+ 
+ ```npm login``` 
+ 
+ ```npm publish dist```
  ## Inspiration
  This library is inspired by [Order Status Tracking](https://codepen.io/manit/pen/uFnJw) 
  
