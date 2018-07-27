@@ -21,7 +21,6 @@ export class FluentOrderTrackerComponent implements OnInit {
   }
 
   initComponent(): void {
-    this.steps = this.orderEntities.length || 5;
   }
 
 }
