@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import {FluentOrderTrackerModule} from './modules/fluent-order-tracker/fluent-order-tracker.module';
 
 
 @NgModule({
@@ -10,7 +11,8 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FluentOrderTrackerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

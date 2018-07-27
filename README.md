@@ -1,4 +1,4 @@
-# NgFluentOrderTracker
+# NgFluentOrderTracker - Your one-stop beautiful order tracker component for angular apps 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
