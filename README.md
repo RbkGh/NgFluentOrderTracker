@@ -1,27 +1,55 @@
 # NgFluentOrderTracker - Your one-stop beautiful order tracker component for angular apps 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
+Github Url : 
+=================
+[https://github.com/RbkGh/NgFluentOrderTracker](https://github.com/RbkGh/NgFluentOrderTracker)
 
-## Development server
+Table of contents
+=================
+ * [Getting started](#getting-started)
+ * [Contributing](#contributing)
+ 
+ ## Getting started
+ ### Step 1: Install `ng-fluent-order-tracker`:
+ ```shell
+ npm i ng-fluent-order-tracker
+ ```
+ ### Step 2: Import the FluentOrderTrackerModule by including it in its @NgModule imports array:
+ ```js
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+import {FluentOrderTrackerModule} from './modules/fluent-order-tracker/fluent-order-tracker.module';
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    FluentOrderTrackerModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
 
-## Build
+ ```
+ ### Step 3 : Use the selector in a component template : 
+ ```html
+<app-fluent-order-tracker></app-fluent-order-tracker>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+```
+ ## Contributing
+ 
+ Contributions are welcome. You can start by looking at [issues](https://github.com/RbkGh/NgFluentOrderTracker/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) with label *Help wanted*  or creating new Issue with proposal or bug report.
+ Note that we are using https://conventionalcommits.org/ commits format.
+ 
+ ## Inspiration
+ This library is inspired by [Order Status Tracking](https://codepen.io/manit/pen/uFnJw) 
+ 
+## Warning
+Library is under active development and may have API breaking changes for subsequent major versions after 1.0.0.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
