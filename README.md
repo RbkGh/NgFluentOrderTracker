@@ -10,11 +10,11 @@ Demo
 
 Table of contents
 =================
- * [Getting started](#getting-started)
+ * [Getting started & Usage](#getting-started)
  * [Contributing](#contributing)
  * [Development](#contributing)
  
- ## Getting started
+ ## Getting started & Usage
  ### Step 1: Install `ng-fluent-order-tracker`:
  ```shell
  npm i ng-fluent-order-tracker
