@@ -43,7 +43,7 @@ export class AppModule { }
 <app-fluent-order-tracker [orderEntities]="orderEntities"></app-fluent-order-tracker>
 
 ```
-#checkout  how to populate orderEntities in app.component.ts.
+# checkout  how to populate orderEntities in app.component.ts.
 
  ## Contributing
  
