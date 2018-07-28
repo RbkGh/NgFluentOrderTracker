@@ -1,7 +1,7 @@
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
 import {FluentOrderTrackerComponent} from './fluent-order-tracker.component';
-import {OrderStateTextUtil} from "./util/order-state-text.enum";
+import {OrderStateTextUtil} from "../../util/order-state-text.enum";
 
 @NgModule({
   imports: [
@@ -12,5 +12,5 @@ import {OrderStateTextUtil} from "./util/order-state-text.enum";
     FluentOrderTrackerComponent]
 })
 export class FluentOrderTrackerModule {
-   orderStateTrackerModule: OrderStateTextUtil;
+
 }

@@ -1,6 +1,8 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {OrderEntity} from './models/order-entity';
-import {OrderState} from './models/order-state.enum';
+import {OrderStateTextUtil} from '../../util/order-state-text.enum';
+import {OrderState} from '../../models/order-state.enum';
+import {OrderEntity} from '../../models/order-entity';
+
 
 @Component({
   selector: 'app-fluent-order-tracker',
@@ -8,13 +10,14 @@ import {OrderState} from './models/order-state.enum';
   styleUrls: ['./fluent-order-tracker.component.css']
 })
 export class FluentOrderTrackerComponent implements OnInit {
+  orderStateTextUtil: OrderStateTextUtil;
+  orderState: OrderState;
+  orderEntity: OrderEntity;
+  @Input()
+  public orderEntities: Array<OrderEntity> = [];
 
   constructor() {
   }
-
-  @Input()
-  public orderEntities: Array<OrderEntity> = [];
-  public steps = 0;
 
   ngOnInit() {
     this.initComponent();

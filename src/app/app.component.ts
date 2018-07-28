@@ -1,7 +1,8 @@
 import {Component, OnInit} from '@angular/core';
-import {OrderEntity} from './modules/fluent-order-tracker/models/order-entity';
-import {OrderState} from './modules/fluent-order-tracker/models/order-state.enum';
-import {OrderStateTextUtil} from './modules/fluent-order-tracker/util/order-state-text.enum';
+import {OrderEntity} from './models/order-entity';
+import {OrderState} from './models/order-state.enum';
+import {OrderStateTextUtil} from './util/order-state-text.enum';
+
 
 
 @Component({
